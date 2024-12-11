@@ -1,0 +1,39 @@
+{
+  "tareas": [
+    {
+      "id": "1733865101224",
+      "titulo": "Desayunar",
+      "completado": true
+    },
+    {
+      "id": "1733865138053",
+      "titulo": "Hacer ejercicio",
+      "completado": true
+    },
+    {
+      "id": "1733865139543",
+      "titulo": "Leer un libro",
+      "completado": true
+    },
+    {
+      "id": "1733865142769",
+      "titulo": "Limpiar mi cuarto",
+      "completado": false
+    },
+    {
+      "id": "1733865144281",
+      "titulo": "Prepararse la cena",
+      "completado": false
+    },
+    {
+      "id": 1733934322901,
+      "titulo": "Hacer proyecto angular",
+      "completado": false
+    },
+    {
+      "id": 1733934355539,
+      "titulo": "Ir al Mercadona",
+      "completado": false
+    }
+  ]
+}

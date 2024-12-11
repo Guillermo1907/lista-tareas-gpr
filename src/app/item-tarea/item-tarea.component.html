@@ -1,0 +1,7 @@
+<div class="list-group-item d-flex justify-content-between align-items-center" [class.bg-light]="tarea.completado">
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" (change)="alternar()" [checked]="tarea.completado" />
+    <label class="form-check-label ms-2">{{ tarea.titulo }}</label>
+  </div>
+  <button class="btn btn-danger btn-sm" (click)="eliminar()">Eliminar</button>
+</div>

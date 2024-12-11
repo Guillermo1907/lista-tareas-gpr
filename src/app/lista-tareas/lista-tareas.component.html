@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <app-item-tarea *ngFor="let tarea of tareas" 
+                  [tarea]="tarea" 
+                  (eliminarTarea)="eliminar($event)" 
+                  (alternarCompletado)="alternar($event)">
+  </app-item-tarea>
+</ul>

@@ -1,0 +1,17 @@
+<main class="container mt-5">
+  <div class="mb-4">
+    <h1 class="text-center">Lista de Tareas</h1>
+    <div class="input-group">
+      <input [(ngModel)]="nuevaTarea" class="form-control" placeholder="Ingrese una nueva tarea" aria-label="Nueva tarea" />
+      <button class="btn btn-success" (click)="agregarTarea()" [disabled]="nuevaTarea.trim() === ''">Agregar</button>
+    </div>
+  </div>
+
+  <!-- Lista de tareas -->
+  <app-lista-tareas [tareas]="tareas" 
+                    (eliminarTarea)="eliminarTarea($event)" 
+                    (alternarCompletado)="alternarTarea($event)">
+  </app-lista-tareas>
+</main>
+
+<router-outlet></router-outlet>
